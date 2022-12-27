@@ -1,0 +1,11 @@
+framework module CustomButton {
+  umbrella header "CustomButton.h"
+
+  export *
+  module * { export * }
+}
+
+module CustomButton.Swift {
+  header "CustomButton-Swift.h"
+  requires objc
+}

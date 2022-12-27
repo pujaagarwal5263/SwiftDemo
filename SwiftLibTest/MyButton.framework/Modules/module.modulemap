@@ -1,0 +1,11 @@
+framework module MyButton {
+  umbrella header "MyButton.h"
+
+  export *
+  module * { export * }
+}
+
+module MyButton.Swift {
+  header "MyButton-Swift.h"
+  requires objc
+}
